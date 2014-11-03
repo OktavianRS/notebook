@@ -1,0 +1,323 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a,li,img{
+    transition:  all ,color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in,border-radius .3s ease-in, padding .3s ease-in;
+}
+body{
+    color: #fff;
+    background-color: #282828;
+    font-family: Lato,Arial;
+    font-size: 14px;
+}
+.wrapper{
+    margin: auto;
+    display: block;
+}
+.container{
+    margin: auto;
+    width: 1000px;
+    display: block;
+}
+header{
+   padding-bottom: 40px;
+    background: url(../img/bghead.jpg) no-repeat;
+    background-size: cover;
+}
+.navigation{
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+}
+.notebook{
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 48px;
+}
+.main-nav{
+    float: right;
+    display: block;
+}
+.main-nav ul > li{
+    float: left;
+    padding: 18px;
+    font-size: 16px;
+}
+.logo_citate{
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+.best-ideas{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+.best-ideas-par{
+    text-align: center;
+    font-size: 21px;
+}
+.order-now{
+    border-radius: 4px;
+    font-size: 21px;
+    background: #a4b9be;
+    padding: 25px 70px;
+    width: 113px;
+    display: block;
+    margin:60px auto;
+
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.order-now:hover{
+  background: #92a0a3;
+}
+.first{
+    background: #fff;
+    display: block;
+    padding: 40px;
+}
+.next-project{
+    font-weight: bold;
+    color: #535a5e;
+    font-size: 38px;
+    text-align: center;
+   padding-top: 40px;
+    padding-bottom: 25px;
+}
+.first p{
+    text-align: center;
+    color: #9fa4a7;
+    font-size: 16px;
+}
+.pencil{
+    display: block;
+    margin: 60px auto;
+}
+.second{
+    background: #a4b9be;
+}
+.second h2{
+    font-size: 38px;
+    color: #fff;
+    text-align:center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.second p{
+    font-size: 21px;
+    width: 65%;
+    text-align:center;
+    margin: auto;
+}
+.browser-img{
+    padding-top:  55px;
+    display: block;
+    margin: auto;
+}
+.third{
+    background: #fff;
+}
+.third .flexible{
+    padding-top: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #535a5e;
+}
+.third p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 21px;
+    margin: auto;
+    width: 65%;
+    color: #98a0a5;
+}
+.coll{
+    color: black;
+    width: 27%;
+    float: left;
+    margin: 60px 30px;
+}
+.coll h2{
+      text-align: center;
+    font-size: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+    font-weight: 300;
+    height: 65px;
+    padding-top: 15px;
+}
+.Grey{
+    background: #98a0a5;
+}
+.Grey:hover{
+     background: #83898d;
+}
+.Green{
+    background: #58ad52;
+}
+.Green:hover{
+    background: #4d9647;
+}
+.Blue{
+    background: #53a1ad;
+}
+.Blue:hover{
+        background: #418089;
+}
+.third ul>li{
+    background: #e9eef2;
+    text-align: center;
+    padding: 30px;
+    font-size: 21px;
+}
+.third ul>li:first-child{
+    font-weight: bold;
+}
+.third .button{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin:10px auto;
+    padding: 25px;
+    border-radius: 4px;
+}
+.third .no-questions{
+    font-size: 15px;
+    width: 35%;
+    padding-bottom: 80px;
+}
+.third span{
+    display: block;
+    font-size: 18px;
+}
+footer{
+    background: #2d3035;
+    padding: 80px;
+}
+footer h2{
+    font-size: 38px;
+    color: #fff;
+    font-weight: bold;
+    text-align:center;
+
+}
+footer p{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align:center;
+    font-size: 21px;
+    color: #98a0a5;
+    width: 37%;
+    margin: auto;
+}
+
+.name{
+    color: #fff;
+    padding-left: 20px;
+    width: 380px;
+    background: #2d3035;
+    border: 3px solid white;
+    height: 60px;
+    display: block;
+    margin:20px auto;
+}
+.message{
+    color: #fff;
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+    width: 380px;
+    background: #2d3035;
+    border: 3px solid white;
+    margin:20px auto;
+}
+footer .button{
+    margin: auto;
+    display: block;
+    width: 404px;
+    color: #2d3035;
+    padding: 23px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #a4b9be;
+    border-radius: 4px;
+}
+footer .button:hover{
+    background: #89999d;
+}
+footer .icons{
+    display: block;
+    height: 70px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 117px;
+}
+footer i{
+    border-radius: 50%;
+    width: 23px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 40px;
+    color: #2d3035;
+    background: #e9eef2;
+}
+
+after-footer{
+
+    font-weight: bold;
+    display: block;
+    font-size: 13px;
+    color: #535a5e;
+    background: #fff;
+}
+after-footer a{
+    font-weight: bold;
+    font-size: 13px;
+    color: #535a5e;
+}
+after-footer ul > li{
+     float: left;
+    padding: 18px;
+
+}
+after-footer ul > li > a{
+    font-size: 16px;
+}
+.footer-logo{
+    padding: 18px;
+    display: inline-block;
+}
+.main-footer-nav{
+    margin-bottom: 50px;
+     float: right;
+    display: block;
+}
